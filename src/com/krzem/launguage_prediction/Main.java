@@ -1,3 +1,4 @@
+package com.krzem.launguage_prediction;
 import com.krzem.NN.NeuralNetwork;
 import java.lang.Math;
 import java.nio.file.Files;
@@ -149,7 +150,7 @@ class LangPrediction{
 
 
 
-public class index{
+public class Main{
 	public static void main(String[] args){
 		LangPrediction l=new LangPrediction();
 		if (true){
