@@ -16,7 +16,6 @@ class LangPrediction{
 
 
 
-
 	public LangPrediction(){
 		this.NN=NeuralNetwork.fromFile("./data");
 		this._load_words();
